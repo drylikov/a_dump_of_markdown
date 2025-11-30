@@ -1,0 +1,22 @@
+
+{
+  "private": true,
+  "name": "a_dump_of_markdown",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "marky": "^1.0.0",
+    "micromark": "*"
+  },
+  "devDependencies": {
+    "brfs": "^2.0.0",
+    "browserify": "^17.0.0",
+    "tinyify": "^3.0.0"
+  },
+  "scripts": {
+    "build": "browserify example.js -t brfs -o build.min.js"
+  }
+}
