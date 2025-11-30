@@ -61,6 +61,7 @@ open index.html
 
 
 
+
 This project is not considered open source. Do not take anything from it.
 The dump includes:
 * [The Open Guide to Equity Compensation](https://github.com/jlevy/og-equity-compensation), which is CC-BY-SA,
